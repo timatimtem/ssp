@@ -155,6 +155,7 @@ add_action( 'init', 'ssp_register_stylesheets' );
 function ssp_enqueue_stylesheet() {
 
         wp_enqueue_style( 'responsive-nav-css' );
+        wp_enqueue_script('jquery-js', get_template_directory_uri() . '/js/jquery.min.js', 0 , 0 , true);
         wp_enqueue_script('responsive-nav-js', get_template_directory_uri() . '/libs/responsive-nav/responsive-nav.min.js', 0 , 0 , true);
 
         wp_enqueue_style( 'font-awesome-all' );
