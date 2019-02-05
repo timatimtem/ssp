@@ -1,4 +1,66 @@
+<section class="support-section">
 
+    <div class="wrap">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">
+                    24/7 SUPPORT
+                </h1>
+
+                <p class="section-description">
+                    Our pro representatives are here to help you 24/7. <br>
+                    No issue is too big or too small!
+                </p>
+            </div>
+
+            <a href="" class="connect-with-us-btn">Connect with us</a>
+
+        </div>
+    </div>
+
+
+
+
+</section>
+
+
+<footer class="footer">
+
+    <div class="container">
+        <div class="footer-header">
+
+            <h2 class="footer-title">
+                Copyright © 2019 Super Sonic Proxies. All Rights Reserved.
+            </h2>
+
+            <ul class="footer-socials">
+                <li>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </li>
+
+                <li>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </li>
+            </ul>
+        </div>
+
+
+        <p class="footer-text">
+            All logos, trademarks, and brands appearing on the site are the property of their respective owners. Use of these logos, trademarks, and brands does not imply endorsement nor any affiliation with supersonicproxies.com.
+        </p>
+    </div>
+
+
+
+
+
+</footer>
 
 
 <?php
