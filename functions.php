@@ -142,7 +142,7 @@ function ssp_register_stylesheets() {
 
 
     wp_register_style( 'style-home-page', get_stylesheet_directory_uri() . '/css/home.min.css' );
-    wp_register_style( 'about-us-page', get_stylesheet_directory_uri() . '/css/style-calculator.min.css' );
+    wp_register_style( 'about-us-page', get_stylesheet_directory_uri() . '/css/about-us.min.css' );
 //    wp_register_style( 'calculator', get_stylesheet_directory_uri() . '/css/style-calculator.min.css' );
 //    wp_register_style( 'blog', get_stylesheet_directory_uri() . '/css/style-blog.min.css' );
 
