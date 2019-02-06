@@ -138,10 +138,11 @@ remove_filter( 'the_excerpt', 'wpautop' );
 function ssp_register_stylesheets() {
     wp_register_style( 'responsive-nav-css', get_stylesheet_directory_uri() . '/libs/responsive-nav/responsive-nav.css' );
     wp_register_style( 'font-awesome-all', get_stylesheet_directory_uri() . '/libs/components-font-awesome/css/fontawesome-all.min.css' );
-
-
-    wp_register_style( 'style-main', get_stylesheet_directory_uri() . '/css/main.min.css' );
     wp_register_style( 'style-owl-carousel', get_stylesheet_directory_uri() . '/libs/owl.carousel/dist/assets/owl.carousel.min.css' );
+
+
+    wp_register_style( 'style-home-page', get_stylesheet_directory_uri() . '/css/home.min.css' );
+    wp_register_style( 'about-us-page', get_stylesheet_directory_uri() . '/css/style-calculator.min.css' );
 //    wp_register_style( 'calculator', get_stylesheet_directory_uri() . '/css/style-calculator.min.css' );
 //    wp_register_style( 'blog', get_stylesheet_directory_uri() . '/css/style-blog.min.css' );
 
@@ -164,13 +165,25 @@ function ssp_enqueue_stylesheet() {
 
     // only enqueue on front-page
     if ( is_front_page()  ) {
-        wp_enqueue_style( 'style-main' );
+        wp_enqueue_style( 'style-home-page' );
         wp_enqueue_style( 'style-owl-carousel' );
         wp_enqueue_script('js-owl-carousel', get_template_directory_uri() . '/libs/owl.carousel/dist/owl.carousel.min.js', 0 , 0 , true);
 //
 //        wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts.min.js', 0 , 0 , true);
         wp_enqueue_script('commont', get_template_directory_uri() . '/js/scripts.min.js', 0 , 0 , true);
         wp_enqueue_script('calculator-home', get_template_directory_uri() . '/js/calculator-home.js', 0 , 0 , true);
+
+
+    }
+
+
+    if(is_page('about-us')){
+        wp_enqueue_style( 'responsive-nav-css' );
+        wp_enqueue_style( 'about-us-page' );
+
+        wp_enqueue_script('responsive-nav-js', get_template_directory_uri() . '/libs/responsive-nav/responsive-nav.min.js', 0 , 0 , true);
+
+//        wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts.min.js', 0 , 0 , true);
 
 
     }
