@@ -39,7 +39,7 @@
         <div class="wrap">
             <div class="item-50">
 
-                <div class="product-img">
+                <div class="product-img shared-img">
 
                 </div>
 
@@ -61,7 +61,7 @@
             </div>
             <div class="item-50">
 
-                <div class="product-img">
+                <div class="product-img private-img">
 
                 </div>
 
@@ -84,7 +84,7 @@
             </div>
             <div class="item-50">
 
-                <div class="product-img">
+                <div class="product-img rotating-img">
 
                 </div>
 
@@ -107,7 +107,7 @@
             </div>
             <div class="item-50">
 
-                <div class="product-img">
+                <div class="product-img shoe-img">
 
                 </div>
 
