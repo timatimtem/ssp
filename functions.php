@@ -144,6 +144,7 @@ function ssp_register_stylesheets() {
     wp_register_style( 'style-home-page', get_stylesheet_directory_uri() . '/css/home.min.css' );
     wp_register_style( 'about-us-page', get_stylesheet_directory_uri() . '/css/about-us.min.css' );
     wp_register_style( 'products-page', get_stylesheet_directory_uri() . '/css/product.min.css' );
+    wp_register_style( 'blog-page', get_stylesheet_directory_uri() . '/css/blog.min.css' );
 //    wp_register_style( 'calculator', get_stylesheet_directory_uri() . '/css/style-calculator.min.css' );
 //    wp_register_style( 'blog', get_stylesheet_directory_uri() . '/css/style-blog.min.css' );
 
@@ -190,6 +191,17 @@ function ssp_enqueue_stylesheet() {
 
     if(is_page('product')){
         wp_enqueue_style( 'products-page' );
+        wp_enqueue_script('commont', get_template_directory_uri() . '/js/scripts.min.js', 0 , 0 , true);
+
+
+//        wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts.min.js', 0 , 0 , true);
+
+
+    }
+
+
+    if(is_page('blog')){
+        wp_enqueue_style( 'blog-page' );
         wp_enqueue_script('commont', get_template_directory_uri() . '/js/scripts.min.js', 0 , 0 , true);
 
 
