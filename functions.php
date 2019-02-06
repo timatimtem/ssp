@@ -188,7 +188,7 @@ function ssp_enqueue_stylesheet() {
 
     }
 
-    if(is_page('products')){
+    if(is_page('product')){
         wp_enqueue_style( 'products-page' );
         wp_enqueue_script('commont', get_template_directory_uri() . '/js/scripts.min.js', 0 , 0 , true);
 
