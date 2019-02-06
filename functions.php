@@ -210,6 +210,14 @@ function ssp_enqueue_stylesheet() {
 
     }
 
+    if( is_single(  )){
+
+        wp_enqueue_style( 'blog-page' );
+        wp_enqueue_script('commont', get_template_directory_uri() . '/js/scripts.min.js', 0 , 0 , true);
+
+
+    }
+
 
     // only enqueue on vps page
     if ( is_404() ) {
