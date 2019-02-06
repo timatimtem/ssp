@@ -13,7 +13,7 @@
                 </p>
             </div>
 
-            <a href="https://portal.supersonicproxies.com/billing/contact.php" class="connect-with-us-btn">Connect with us</a>
+            <a target="_blank" href="https://portal.supersonicproxies.com/billing/contact.php" class="connect-with-us-btn">Connect with us</a>
 
         </div>
     </div>
@@ -37,17 +37,17 @@
 
             <ul class="footer-socials">
                 <li>
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a target="_blank" href=""><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/supersonicproxy"><i class="fab fa-twitter"></i></a>
+                    <a target="_blank" href="https://twitter.com/supersonicproxy"><i class="fab fa-twitter"></i></a>
                 </li>
                 <li>
-                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" href=""><i class="fab fa-instagram"></i></a>
                 </li>
 
                 <li>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a target="_blank" href=""><i class="fab fa-linkedin-in"></i></a>
                 </li>
             </ul>
         </div>

@@ -93,7 +93,7 @@
                 <p class="main-description">Buy private proxies</p>
 
 
-                <a href="" class="main-btn">Discover more</a>
+                <a href="#pricing" class="main-btn">Discover more</a>
 
             </div>
             <div class="main-right-side">
@@ -212,7 +212,7 @@
 
             <div class="block-footer">
 
-                <a href="" class="discover-more-white">Discover More</a>
+                <a href="/about-us" class="discover-more-white">Discover More</a>
             </div>
 
         </div>
@@ -284,7 +284,7 @@
             <div class="trial-block">
 
                 <div class="trial-block-left">
-                    <div>Request for a 2 day trial – <a href="" class="trial-link" >HERE</a></div>
+                    <div>Request for a 2 day trial – <a href="https://portal.supersonicproxies.com/billing/submitticket.php?step=2&deptid=1" class="trial-link" target="_blank">HERE</a></div>
                 </div>
 
                 <div class="trial-block-right">
