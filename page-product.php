@@ -27,7 +27,6 @@
 
 
 
-
 </section>
 
 <!--PRODUCTS SECTION-->
@@ -54,7 +53,7 @@
                     </p>
                 </div>
 
-                <a href="" class="product-link">
+                <a href="/#pricing" class="product-link">
 
                     Order now
                 </a>
@@ -77,7 +76,7 @@
 
                 </div>
 
-                <a href="" class="product-link">
+                <a href="/#pricing" class="product-link">
 
                     Order now
                 </a>
@@ -100,7 +99,7 @@
 
                 </div>
 
-                <a href="" class="product-link">
+                <a href="/#pricing" class="product-link">
 
                     Order now
                 </a>
@@ -124,7 +123,7 @@
 
                 </div>
 
-                <a href="" class="product-link">
+                <a href="/#pricing" class="product-link">
 
                     Order now
                 </a>
