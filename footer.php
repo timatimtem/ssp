@@ -13,7 +13,7 @@
                 </p>
             </div>
 
-            <a href="" class="connect-with-us-btn">Connect with us</a>
+            <a href="https://portal.supersonicproxies.com/billing/contact.php" class="connect-with-us-btn">Connect with us</a>
 
         </div>
     </div>
@@ -30,7 +30,9 @@
         <div class="footer-header">
 
             <h2 class="footer-title">
-                Copyright © 2019 Super Sonic Proxies. All Rights Reserved.
+                Copyright © 2017 - <?php
+                echo date("Y");
+                ?> Super Sonic Proxies. All Rights Reserved.
             </h2>
 
             <ul class="footer-socials">
@@ -38,7 +40,7 @@
                     <a href=""><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li>
-                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href="https://twitter.com/supersonicproxy"><i class="fab fa-twitter"></i></a>
                 </li>
                 <li>
                     <a href=""><i class="fab fa-instagram"></i></a>
