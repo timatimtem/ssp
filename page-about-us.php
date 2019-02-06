@@ -103,6 +103,71 @@
 </section>
 
 
+<!--Why choose us -->
+<section class="why-choose-us-section">
+
+    <div class="container">
+
+
+        <div class="section-header">
+
+            <h2 class="section-title">Why Choose us?</h2>
+
+        </div>
+
+
+        <div class="wrap">
+
+            <div class="item-quarter">
+                <div class="choose-img direction-img">
+
+                </div>
+                <h2 class="choose-title">
+                    Optimized
+                    locations
+                </h2>
+
+                <div class="choose-black-line"></div>
+            </div>
+            <div class="item-quarter">
+                <div class="choose-img wallet-img">
+
+                </div>
+                <h2 class="choose-title">
+                    Competitive
+                    Pricing
+                </h2>
+                <div class="choose-black-line"></div>
+
+            </div>
+            <div class="item-quarter">
+                <div class="choose-img help-img">
+
+                </div>
+                <h2 class="choose-title">
+                    Superrior
+                    Customer Support
+                </h2>
+                <div class="choose-black-line"></div>
+
+            </div>
+            <div class="item-quarter">
+                <div class="choose-img stack-img">
+
+                </div>
+                <h2 class="choose-title">
+                    Uptime and
+                    reliability
+                </h2>
+                <div class="choose-black-line"></div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
 
 
 
