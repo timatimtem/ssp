@@ -48,7 +48,7 @@
             ?>
 
             <?php $query = new WP_Query(
-                array(	'posts_per_page' => 8,
+                array(	'posts_per_page' => 999,
                     'paged' => $paged,)
             ); ?>
             <?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
