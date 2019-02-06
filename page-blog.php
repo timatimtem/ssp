@@ -63,7 +63,7 @@
                         <h5 class="post-blog-title" ><?php the_title(); ?></h5>
                     </a>
 
-                    <p class="blog-post-data">
+                    <p class="blog-post-date">
                         <?php the_time('F j, Y'); ?>
                     </p>
 
