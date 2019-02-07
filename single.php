@@ -85,7 +85,7 @@
                         foreach( $recent_posts as $recent ){
 
 
-                            echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .the_post_thumbnail().   $recent["post_title"].'</a>    <p class="blog-post-date">
+                            echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .$recent["post_title"].the_post_thumbnail().'</a>    <p class="blog-post-date">
                         '.the_time("F j, Y").' </p></li> ';
                         }
                         wp_reset_query();
