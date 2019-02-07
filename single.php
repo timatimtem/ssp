@@ -9,6 +9,10 @@
 <!--HOME SECTION-->
 <section class="home-section">
 
+    <div class="bg-img-wrap">
+        <?php the_post_thumbnail( ); ?>
+
+    </div>
 
 
     <div class="container">
@@ -18,8 +22,12 @@
             <?php wp_title(''); ?>
         </h1>
 
+        <div class="post-date">
+            <?php the_time('F j, Y'); ?>
+        </div>
+
         <h3 class="section-subtitle">
-            Super Sonic Premium Private Proxies
+            <?php the_excerpt();?>
         </h3>
 
 
@@ -39,7 +47,6 @@
         <div class="single-blog-article" >
             <h3 class="blog-article-header"></h3>
 
-            <?php the_post_thumbnail( ); ?>
 
 
             <div class="blog-article-content">
