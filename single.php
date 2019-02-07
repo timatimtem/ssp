@@ -85,12 +85,16 @@
                         foreach( $recent_posts as $recent ){
 
 
-                            echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .$recent["post_title"].the_post_thumbnail().'</a>    <p class="blog-post-date">
+                            echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .$recent["post_title"].''.the_post_thumbnail().'</a>    <p class="blog-post-date">
                         '.the_time("F j, Y").' </p></li> ';
                         }
                         wp_reset_query();
                         ?>
                     </ul>
+
+                    <div class="related-post-wrap">
+                        <?php if ( function_exists( "get_yuzo_related_posts" ) ) { get_yuzo_related_posts(); } ?>
+                    </div>
                 </div>
             </div>
 
