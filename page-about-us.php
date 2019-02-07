@@ -56,7 +56,7 @@
 
                 <p class="supersonic-description-text">
                     Its all about providing a quality product, and Super Sonic proxies is the gateway for us and you. That is simply all we wan to be able to provide. We can provide custom orders, or amounts. We have built an impeccable service from the ground up. Allow us to help you break barriers and achieve your goals. Don’t hesitate to contact us if you have any questions! You may reach us –
-                    <a class="link-styled-bg" href="">HERE</a>
+                    <a class="link-styled-bg" href="https://portal.supersonicproxies.com/billing/submitticket.php?step=2&deptid=1">HERE</a>
                 </p>
 
             </div>
