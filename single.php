@@ -83,7 +83,9 @@
                         $args = array( 'numberposts' => '2' );
                         $recent_posts = wp_get_recent_posts( $args );
                         foreach( $recent_posts as $recent ){
-                            echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> ';
+
+
+                            echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .the_post_thumbnail().   $recent["post_title"].'</a> </li> ';
                         }
                         wp_reset_query();
                         ?>
