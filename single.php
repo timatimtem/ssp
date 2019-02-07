@@ -53,13 +53,31 @@
 
 
         <div class="single-blog-article" >
-            <h3 class="blog-article-header"></h3>
-
-
 
             <div class="blog-article-content">
                 <?php the_content(); ?>
 
+            </div>
+            <div class="blog-article-sidebar">
+
+                <div class="proxy-banner">
+
+                    <div class="server-img">
+
+                    </div>
+
+                    <h3 class="banner-title">BUY PRIVATE PROXIES</h3>
+
+                    <p class="banner-description">
+                        All proxies are Elite Anonmity, 1 Gbps, and unlimited bandwidth. Grab your 2 day free trial today!
+                    </p>
+
+                    <a href="/#pricing" class="banner-link">SEE PRICING</a>
+                </div>
+
+                <div class="recent-posts-wrap">
+                    <?php if ( function_exists( "get_yuzo_related_posts" ) ) { get_yuzo_related_posts(); } ?>
+                </div>
             </div>
 
         </div>
