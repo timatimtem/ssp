@@ -7,7 +7,7 @@
 
 
 <!--HOME SECTION-->
-<section class="home-section">
+<section class="single-blog-home-section">
 
     <div class="bg-img-wrap">
         <?php the_post_thumbnail( ); ?>
