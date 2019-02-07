@@ -1,4 +1,14 @@
 
+<style>
+
+    .nav-blog-link{
+        a{
+            color: #999;
+            font-weight: 700;
+        }
+    }
+</style>
+
 
 <?php get_header();?>
 
