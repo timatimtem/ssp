@@ -2,7 +2,7 @@
 <style>
 
     .nav-blog-link a{
-        color: #999;
+        color: #999 !important;
         font-weight: 700;
     }
 </style>
