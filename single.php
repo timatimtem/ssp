@@ -77,7 +77,7 @@
 
                 <div class="recent-posts-wrap">
 
-                    <h2>Recent Posts</h2>
+                    <h2 class="recent-post-title">Recent Posts</h2>
                     <ul>
                         <?php
                         $args = array( 'numberposts' => '2' );
