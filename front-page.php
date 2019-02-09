@@ -13,9 +13,14 @@
         <div class="main-block main-block-1">
 
             <div class="main-left-side">
-                <h1 class="main-header">
-                    Proxy solution <br>
-                    for everyone
+
+                <h1 class="main-header box-headline letters rotate-2">
+										<span class="box-words-wrapper">
+												<b class="is-visible"> Proxy solution <br>
+                    for everyone</b>
+												<b>SIMPLE &nbsp;&amp;&nbsp;  POWERFUL.</b>
+											    <b>Fast  &nbsp;&amp;&nbsp;  Strong.</b>
+										</span>
                 </h1>
 
                 <p class="main-description">Buy private proxies</p>

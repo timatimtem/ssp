@@ -171,7 +171,7 @@ function ssp_enqueue_stylesheet() {
         wp_enqueue_style( 'style-owl-carousel' );
         wp_enqueue_script('js-owl-carousel', get_template_directory_uri() . '/libs/owl.carousel/dist/owl.carousel.min.js', 0 , 0 , true);
 //
-//        wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts.min.js', 0 , 0 , true);
+        wp_enqueue_script('animated-headline', get_template_directory_uri() . '/js/animated-headline.js', 0 , 0 , true);
         wp_enqueue_script('commont', get_template_directory_uri() . '/js/scripts.min.js', 0 , 0 , true);
         wp_enqueue_script('calculator-home', get_template_directory_uri() . '/js/calculator-home.js', 0 , 0 , true);
 
