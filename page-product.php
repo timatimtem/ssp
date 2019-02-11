@@ -142,7 +142,7 @@
 <?php get_footer();?>
 
 
-<?php the_post() ?>
-<?php the_content(); ?>
+<?php //the_post() ?>
+<?php //the_content(); ?>
 
 
