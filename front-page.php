@@ -42,7 +42,8 @@
                     for everyone
                 </h1>
 
-                <p class="main-description">Buy private proxies</p>
+                <p class="main-description">Buy premium
+                    proxies</p>
 
 
                 <a href="" class="main-btn">Discover more</a>
@@ -50,7 +51,7 @@
             </div>
             <div class="main-right-side">
 
-                <div class="main-img main-img-1">
+                <div class="main-img main-img-2">
 
 
                 </div>
@@ -84,7 +85,7 @@
             <div class="block-content">
                 <div class="feature-item">
 
-                    <div class="feature-img feature-img-2">
+                    <div class="feature-img feature-img-1">
 
                     </div>
 
