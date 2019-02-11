@@ -38,12 +38,11 @@
 
             <div class="main-left-side">
                 <h1 class="main-header">
-                    2. Proxy solution <br>
-                    for everyone
+                    Buy premium <br>
+                    proxies
                 </h1>
 
-                <p class="main-description">Buy premium
-                    proxies</p>
+                <p class="main-description">The best place to buy Proxies</p>
 
 
                 <a href="" class="main-btn">Discover more</a>
