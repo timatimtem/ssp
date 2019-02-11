@@ -21,7 +21,7 @@
                 <p class="main-description">Buy private proxies</p>
 
 
-                <a href="" class="main-btn">Discover more</a>
+                <a href="/product" class="main-btn">Discover more</a>
 
             </div>
             <div class="main-right-side">
@@ -45,7 +45,7 @@
                 <p class="main-description">The best place to buy Proxies</p>
 
 
-                <a href="" class="main-btn">Discover more</a>
+                <a href="/product" class="main-btn">Discover more</a>
 
             </div>
             <div class="main-right-side">
