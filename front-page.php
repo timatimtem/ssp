@@ -34,7 +34,7 @@
 
         </div>
 
-        <div class="main-block main-block-1">
+        <div class="main-block main-block-2">
 
             <div class="main-left-side">
                 <h1 class="main-header">
@@ -58,53 +58,6 @@
 
         </div>
 
-        <div class="main-block main-block-1">
-
-            <div class="main-left-side">
-                <h1 class="main-header">
-                    3. Proxy solution <br>
-                    for everyone
-                </h1>
-
-                <p class="main-description">Buy private proxies</p>
-
-
-                <a href="" class="main-btn">Discover more</a>
-
-            </div>
-            <div class="main-right-side">
-
-                <div class="main-img main-img-1">
-
-
-                </div>
-            </div>
-
-        </div>
-
-        <div class="main-block main-block-1">
-
-            <div class="main-left-side">
-                <h1 class="main-header">
-                    4. Proxy solution <br>
-                    for everyone
-                </h1>
-
-                <p class="main-description">Buy private proxies</p>
-
-
-                <a href="#pricing" class="main-btn">Discover more</a>
-
-            </div>
-            <div class="main-right-side">
-
-                <div class="main-img main-img-1">
-
-
-                </div>
-            </div>
-
-        </div>
     </div>
 
 
@@ -131,7 +84,7 @@
             <div class="block-content">
                 <div class="feature-item">
 
-                    <div class="feature-img feature-img-1">
+                    <div class="feature-img feature-img-2">
 
                     </div>
 
